@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:useDefaultMargins="true"
+        tools:context="com.example.jonathanbenson.csis_application.CourseGridActivity">
+
+        <!-- Heading row -->
+        <TextView
+            android:textStyle="bold"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/semester"
+            android:id="@+id/gridHeadingSemester" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CS"
+            android:id="@+id/gridHeadingCS" />
+        <TextView
+            android:textStyle="bold"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CIS"
+            android:id="@+id/gridHeadingCIS" />
+
+        <!-- Fall 1 -->
+        <TextView
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall1"
+            android:id="@+id/gridFall1" />
+        <TextView
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall1CS"
+            android:id="@+id/gridFall1CS" />
+        <TextView
+            android:layout_column="2"
+            android:layout_row="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall1CIS"
+            android:id="@+id/gridFall1CIS" />
+
+        <!-- Winter 1 -->
+        <TextView
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter1"
+            android:id="@+id/gridWinter1" />
+        <TextView
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter1CS"
+            android:id="@+id/gridWinter1CS" />
+        <TextView
+            android:layout_column="2"
+            android:layout_row="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Winter1CIS"
+            android:id="@+id/gridWinter1CIS" />
+
+        <!-- Fall 2 -->
+        <TextView
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall2"
+            android:id="@+id/gridFall2" />
+        <TextView
+            android:layout_column="1"
+            android:layout_row="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall2CS"
+            android:id="@+id/gridFall2CS" />
+        <TextView
+            android:layout_column="2"
+            android:layout_row="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall2CIS"
+            android:id="@+id/gridFall2CIS" />
+
+        <!-- Winter 2 -->
+        <TextView
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter2"
+            android:id="@+id/gridWinter2" />
+        <TextView
+            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter2CS"
+            android:id="@+id/gridWinter2CS" />
+        <TextView
+            android:layout_column="2"
+            android:layout_row="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter2CIS"
+            android:id="@+id/gridWinter2CIS" />
+
+        <!-- Fall 3 -->
+        <TextView
+            android:layout_column="0"
+            android:layout_row="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall3"
+            android:id="@+id/gridFall3" />
+        <TextView
+            android:layout_column="1"
+            android:layout_row="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall3CS"
+            android:id="@+id/gridFall3CS" />
+        <TextView
+            android:layout_column="2"
+            android:layout_row="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall3CIS"
+            android:id="@+id/gridFall23IS" />
+
+        <!-- Winter 3 -->
+        <TextView
+            android:layout_column="0"
+            android:layout_row="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter3"
+            android:id="@+id/gridWinter3" />
+        <TextView
+            android:layout_column="1"
+            android:layout_row="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter3CS"
+            android:id="@+id/gridWinter3CS" />
+        <TextView
+            android:layout_column="2"
+            android:layout_row="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter3CIS"
+            android:id="@+id/gridWinter3CIS" />
+
+        <!-- Fall 4 -->
+        <TextView
+            android:layout_column="0"
+            android:layout_row="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall4"
+            android:id="@+id/gridFall4" />
+        <TextView
+            android:layout_column="1"
+            android:layout_row="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall4CS"
+            android:id="@+id/gridFall4CS" />
+        <TextView
+            android:layout_column="2"
+            android:layout_row="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fall4CIS"
+            android:id="@+id/gridFall4CIS" />
+
+        <!-- Winter 4 -->
+        <TextView
+            android:layout_column="0"
+            android:layout_row="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter4"
+            android:id="@+id/gridWinter4" />
+        <TextView
+            android:layout_column="1"
+            android:layout_row="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter4CS"
+            android:id="@+id/gridWinter4CS" />
+        <TextView
+            android:layout_column="2"
+            android:layout_row="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winter4CIS"
+            android:id="@+id/gridWinter4CIS" />
+
+        <Button android:id="@+id/courseGridBackButton"
+            android:layout_column="0"
+            android:layout_row="9"
+            android:text="@string/back"
+            android:onClick="onClickBack"/>
+
+    </GridLayout>
+</ScrollView>

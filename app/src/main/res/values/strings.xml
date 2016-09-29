@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CSIS at SVSU</string>
+    <string name="courseGrid">Course Grid</string>
+    <string name="faculty">Faculty</string>
+    <string name="mission">Mission</string>
+    <string name="missionContent">The mission of the Department of Computer Science and Information Systems at SVSU is to provide an outstanding education to its students in accordance with the guidelines of the SVSU mission, to advance scholarship in the key domains of the computing and information systems sciences, and to engage in activities that improve the welfare of society and enhance the reputation of SVSU. </string>
+    <string name="courses">CS/CIS Common Courses</string>
+    <string name="coursesContent">The CS and CIS programs share a common foundation. COMM 105A, PHIL 205A (or 210B), and RPW 304 provide a base for communications and professional ethics. CS 105, 146, and 116 comprise a typical first year of CSIS classes, followed by CS 216, CS 245, and CIS 255/355 and 357 in subsequent semesters.  </string>
+    <string name="differences">Differences between CS and CIS</string>
+    <string name="differencesContent">At the 300 and 400 level, the SVSU CS program goes deep into theoretical concepts of data structures, programming languages, and what computers are able to accomplish. CS majors will also gain a deeper understanding of computer architecture, networks, databases, and operating systems. As such, the CS program also requires a more substantial higher math commitment.\n\nBy comparison, the CIS program places greater emphasis on real-world business factors, project management, and system administration. As such, its higher math component is less demanding.  </string>
+    <string name="back">Back</string>
+    <string name="semester">Semester</string>
+    <string name="CS">CS</string>
+    <string name="CIS">CIS</string>
+
+    <string name="fall1">1/Fall</string>
+    <string name="winter1">1/Winter</string>
+    <string name="fall1CS">CS 105\n(or CS 107)\nMATH 103\nCS 146\nCOMM 105A</string>
+    <string name="winter1CS">CS 116\nPHIL 210B\n(or 205A)\nMATH 161</string>
+    <string name="fall1CIS">CS 105\n(or CS 107)\nMATH 103\nCS 146\nCOMM 105</string>
+    <string name="Winter1CIS">CS 116\nPHIL 205A\n(or 210B)\nMATH 120B</string>
+
+    <string name="fall2">2/Fall</string>
+    <string name="winter2">2/Winter</string>
+    <string name="fall2CS">CS 216\nCS 245\nMATH 162</string>
+    <string name="winter2CS">CIS 255\nCIS 311\nRPW 304</string>
+    <string name="fall2CIS">CS 216\nCS 245\nACCT 213\nECON 221</string>
+    <string name="winter2CIS">CIS 255\nCIS 311\nRPW 304</string>
+
+    <string name="fall3">3/Fall</string>
+    <string name="winter3">3/Winter</string>
+    <string name="fall3CS">MATH 300\nCS 316\nCS 331\nCIS 355</string>
+    <string name="winter3CS">CIS 366\nCS 411\n1 Elective</string>
+    <string name="fall3CIS">CIS 301\nCIS 333\nCIS 355\nLAW 308</string>
+    <string name="winter3CIS">CIS 366\nCIS 386\nMGT 321\n1 Elective</string>
+
+    <string name="fall4">4/Fall</string>
+    <string name="winter4">4/Winter</string>
+    <string name="fall4CS">CS 401\nCS 421\n1 Elective</string>
+    <string name="winter4CS">CS 446\nCS 451</string>
+    <string name="fall4CIS">CIS 422\n1 Elective</string>
+    <string name="winter4CIS">CIS 424</string>
+
+    <string name="prof1Name">Il-Hyung Cho</string>
+    <string name="prof2Name">Moe Bidgoli</string>
+    <string name="prof3Name">George Corser</string>
+
+    <string name="prof1Bio">Associate Professor of Computer Science &amp; Information Systems\nDepartment of Computer Science and Information Systems\nScience Engineering &amp; Tech\nAcademic and Student Affairs</string>
+    <string name="prof2Bio">Associate Professor of Computer Science &amp; Information Systems\nDepartment of Computer Science and Information Systems\nScience Engineering &amp; Tech\nAcademic and Student Affairs</string>
+    <string name="prof3Bio">Associate Professor of Computer Science &amp; Information Systems\nDepartment of Computer Science and Information Systems\nScience Engineering &amp; Tech\nAcademic and Student Affairs</string>
+    <string name="imageDescriptionCorser">George Corser</string>
+    <string name="imageDescriptionBidgoli">Moe Bidgoli</string>
+    <string name="imageDescriptionCho">Il-Hyung Cho</string>
+    <string name="imageDescriptionStudent">Typical CSIS student</string>
+    <string name="imageDescriptionPioneer">Pioneer Hall</string>
+
+</resources>
